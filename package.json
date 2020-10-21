@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
-    "loader.js": "^4.7.0"
+    "loader.js": "^4.7.0",
+    "nodemon": "^2.0.6"
   }
 }
