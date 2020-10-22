@@ -4,8 +4,6 @@
 
 
 
-![Screenshot Gif](Read_Me_Generator.gif "Screenshot of Application In Use")
-
 ## Description
 This is a README file and template generator. This program accepts user input and creates a README.md file complete with license badge and description. The project uses Node.js as well as inquirer npm package. This README was generated using this program. 
 ## Table of Contents 
