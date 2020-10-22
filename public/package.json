@@ -1,0 +1,25 @@
+{
+  "name": "note_taker",
+  "version": "1.0.0",
+  "description": "A Note Taking App",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skirkp18/Note_Taker.git"
+  },
+  "author": "Sean Kirkpatrick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Skirkp18/Note_Taker/issues"
+  },
+  "homepage": "https://github.com/Skirkp18/Note_Taker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
