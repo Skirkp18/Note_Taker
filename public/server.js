@@ -32,7 +32,24 @@ app.get("/", function(req, res) {
 //   api endpints
 
   app.get("/api/notes", function(req, res) {
-    res.sendFile(path.join("C:/Users/skirk/develoupment/Note_Taker/db/", "db.json"))
+    return res.json(dataBaseObj);
+
+  });
+
+  app.get("/api/notes/:id", function(req, res) {
+    const chosen = req.params.id;
+  
+    console.log(chosen);
+  
+    for (var i = 0; i < dataBaseObj.length; i++) {
+      let noteArrayId = dataBase[i].id;
+      if (chosen == noteArrayId) {
+        console.log("true");
+        return res.json(dataBaseObj[i]);
+      }
+    }
+
+    return res.json("No Note Found!")
   });
 
   app.post("/api/notes", function(req, res) {
@@ -64,7 +81,16 @@ app.get("/", function(req, res) {
   })
 
   app.delete("/api/notes/:id", function(req, res) {
-    console.log(req)
+    let noteId = req.params.id;
+    // let noteIdIndex = noteId - 1;
+    console.log("Deleting Note with the Id of " + noteId);
+    // return res.noteId;
+
+    var removeIndex = dataBaseObj.map(function(item) { return item.id; }).indexOf(noteId);
+    dataBaseObj.splice(removeIndex , 1);
+    console.log(dataBaseObj);
+    // res.sendFile(path.join(__dirname, "/notes.html"));
+    return res.json(dataBaseObj);
   })
   
 
