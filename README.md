@@ -1,12 +1,13 @@
-# Read Me Generator
+# Note Taker
 
-![GitHub](https://img.shields.io/github/downloads/Skirkp18/Read_Me_Generator/total) ![GitHub](https://img.shields.io/github/languages/top/Skirkp18/Read_Me_Generator) ![GitHub](https://img.shields.io/badge/license-MIT-green?style=flat) 
-
-
+![GitHub](https://img.shields.io/github/downloads/Skirkp18/Note_Taker/total) ![GitHub](https://img.shields.io/github/languages/top/Skirkp18/Note_Taker) ![GitHub](https://img.shields.io/badge/license-MIT-green?style=flat) 
 
 ## Description
-This is a README file and template generator. This program accepts user input and creates a README.md file complete with license badge and description. The project uses Node.js as well as inquirer npm package. This README was generated using this program. 
+This is a small web app that uses express.js. It is a basic not taking app that updates information using different methods (get, post, delete).
 ## Table of Contents 
+- [Note Taker](#note-taker)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contributing](#contributing)
@@ -16,16 +17,16 @@ This is a README file and template generator. This program accepts user input an
 ## Installation
 To install necessary dependencies, run the following command:
 ``` 
-npm i or npm install
+npm install
 ```
 ## Usage
-Open a terminal at the "index.js" file. Make sure to insatll all necessary npm packages using the installation command in the above "Installation" section. Enter command "node index.js" and enter question information. Choose the license used. And the program generates a file with the project title followed by "_README.md" ("Your_Project_Here_README.md"). Check the example photo of a test project in the assets folder.
+Type notes into text area and hit the save button. From there you can view saved notes, delete notes or create new ones.
 ## Contributing
-I am the sole contributor currently.
+N/A
 ## Tests
 To run tests, run the following command:
 ```
-N/A
+N/a
 ```
 ## Questions
 If you have any questions about the repo, open an issue or contact me directly at Skirkp18@gmail.com. You can find more of my work on [GitHub](https://github.com/Skirkp18).
