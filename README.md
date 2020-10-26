@@ -3,7 +3,7 @@
 ![GitHub](https://img.shields.io/github/downloads/Skirkp18/Note_Taker/total) ![GitHub](https://img.shields.io/github/languages/top/Skirkp18/Note_Taker) ![GitHub](https://img.shields.io/badge/license-MIT-green?style=flat) 
 
 ## Description
-This is a small web app that uses express.js. It is a basic not taking app that updates information using different methods (get, post, delete).
+This is a small web app that uses express.js. It is a basic note taking app that updates information using different methods (get, post, delete).
 ## Table of Contents 
 - [Note Taker](#note-taker)
   - [Description](#description)
